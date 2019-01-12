@@ -7,5 +7,20 @@
 </ion-header>
 
 <ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Probando Componentes
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      En esta página probaremos los componentes de alerta y ActionSheet
+    </ion-card-content>
+  </ion-card>
+  <ion-item>
+    <ion-label>Cheve</ion-label>
+    <ion-checkbox color="tertiary" slot="end"></ion-checkbox>
+  </ion-item>
+  <ion-button color="tertiary" expand="block" (click)="llamarAlerta1()">Alerta 1</ion-button>
   <ion-button color="danger" expand="block" (click)="llamarHoja1()">Menu</ion-button>
 </ion-content>
